@@ -9,4 +9,6 @@ In command line you should add the flags:
 * -ic = --input_cov = Sequencing coverage of the input file
 * -wc = --wanted_cov = Wanted sequencing coverage
 
-
+# Example
+##Want to subsample file with coverage depht of 80 to 50
+python3 subsampler_sam_tools.py -i input_file -o output_file -ic 80 -wc 50
